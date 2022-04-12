@@ -1,5 +1,9 @@
 Welcome to my personal website!
 
+[TOC]
+
+
+
 # Courses
 
 ## Autumn 2020
