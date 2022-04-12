@@ -1,61 +1,59 @@
 Welcome to my personal website!
 
-[TOC]
 
 
+## Courses
 
-# Courses
+### Autumn 2020
 
-## Autumn 2020
+- Introduction to Computer Science
 
-### Introduction to Computer Science
+- Java
 
-### Java
+- Discrete Mathematics
 
-### Discrete Mathematics
+### Spring 2021
 
-## Spring 2021
+- Mathematics for Computer Science
 
-### Mathematics for Computer Science
+- Theory of Computation
 
-### Theory of Computation
+- Causality and Statistics
 
-### Causality and Statistics
+- General Physics I
 
-### General Physics I
+### Summer 2021
 
-## Summer 2021
+- Data Structual in Real World
 
-### Data Structual in Real World
+- Physics of Infomation
 
-### Physics of Infomation
+### Autumn 2021
 
-## Autumn 2021
+- Algorithms
 
-### Algorithms
+- Database Systems
 
-### Database Systems
+- Numercial Analysis
 
-### Numercial Analysis
+- General Physics II
 
-### General Physics II
+### Spring 2022
 
-## Spring 2022
+- Architecture
 
-### Architecture
+- Cryptography
 
-### Cryptography
+- Game Theory
 
-### Game Theory
+	- [Midterm Cheatsheet](https://wu-ys.github.io/GameTheory/)
 
-[Midterm Cheatsheet](https://wu-ys.github.io/GameTheory/)
+- Quantum Computer Science
 
-### Quantum Computer Science
+- Probability Theory
 
-### Probability Theory
+- Real Analysis
 
-### Real Analysis
-
-
+## About me
 
 Email: wu-ys20@mails.tsinghua.edu.cn
