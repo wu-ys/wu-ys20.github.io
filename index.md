@@ -35,7 +35,7 @@ Welcome to my personal website!
 - Architecture
 - Cryptography
 - Game Theory
-	- [Midterm Cheatsheet](https://wu-ys.github.io/GameTheory/midterm-cheatsheet)
+	- [Midterm Cheatsheet](https://wu-ys.github.io/GameTheory/midterm-cheatsheet.html)
 - Quantum Computer Science
 - Probability Theory
 - Real Analysis
