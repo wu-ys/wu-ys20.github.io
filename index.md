@@ -29,6 +29,8 @@ Welcome to my personal website!
 - Algorithms
 - Database Systems
 - Numercial Analysis
+  - [Midterm review](https://wu-ys.github.io/numerical/数值分析期中Recap.html)
+  - [Final review](https://wu-ys.github.io/numerical/数值分析期中期末Recap.html)
 - Digital Electronics
 - General Physics II
 
