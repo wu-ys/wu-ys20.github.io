@@ -21,7 +21,7 @@ Welcome to my personal website!
 
 ### Summer 2021
 
-- Data Structure in Real World
+- Data Structures in Real World
 - Physics of Infomation
 
 ### Autumn 2021
