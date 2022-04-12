@@ -1,7 +1,5 @@
 Welcome to my personal website!
 
-
-
 ## Courses
 
 ### Autumn 2020
@@ -37,7 +35,7 @@ Welcome to my personal website!
 - Architecture
 - Cryptography
 - Game Theory
-	- [Midterm Cheatsheet](https://wu-ys.github.io/GameTheory/)
+	- [Midterm Cheatsheet](https://wu-ys.github.io/GameTheory/midterm-cheatsheet)
 - Quantum Computer Science
 - Probability Theory
 - Real Analysis
