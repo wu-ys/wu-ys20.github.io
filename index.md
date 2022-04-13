@@ -4,8 +4,8 @@ Welcome to my personal website!
 
 ## Arbitrary Notes
 
-- Vim: [Vim Tutorial Card](https://wu-ys.github.io/notes/vim/)
-- Git: [Git Tutorial Card](https://wu-ys.github.io/notes/git/)
+- Vim: [Vim Tutorial](https://wu-ys.github.io/notes/vim/)
+- Git: [Git Tutorial](https://wu-ys.github.io/notes/git/)
 
 ## Courses
 
