@@ -1,8 +1,10 @@
 Welcome to my personal website!
 
-## Diaries
+## Projects
 
-## Arbitrary Notes
+- (2022) RISC-V vscode extension implemented 
+
+## Notes on Arbitrary Topics
 
 - Vim: [Vim Tutorial](https://wu-ys.github.io/notes/vim/)
 - Git: [Git Tutorial](https://wu-ys.github.io/notes/git/)
@@ -33,6 +35,8 @@ Welcome to my personal website!
 
 - Algorithms
 - Database Systems
+  - Projects (in C++): basis structure of a database, indexing, 2-Phase Lock(2PL), join algorithms
+
 - Numercial Analysis
   - [Midterm review](https://wu-ys.github.io/courses/numerical/midterm-review.html)
   - [Final review](https://wu-ys.github.io/courses/numerical/final-review.html)
@@ -42,6 +46,8 @@ Welcome to my personal website!
 ### Spring 2022
 
 - Architecture
+  - Projects: RISC-V Optimization, Processor, (in C++)
+
 - Cryptography
 - Game Theory
   - [Midterm Cheatsheet](https://wu-ys.github.io/courses/game-theory/midterm-cheatsheet.html)

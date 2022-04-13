@@ -2,6 +2,8 @@
 
 [TOC]
 
+------
+
 *This part is concluded from [(MIT)The missing semeter/git](https://missing.csail.mit.edu/2020/git/) and [Pro Git](https://git-scm.com/book/zh/v2)*
 
 Data model: DAG

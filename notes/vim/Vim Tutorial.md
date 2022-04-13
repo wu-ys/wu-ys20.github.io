@@ -1,6 +1,10 @@
 ## Vim Tutorial
 
-This part is concluded from [(MIT)The missing semeter/editor](https://missing.csail.mit.edu/2020/editors/)
+[TOC]
+
+------
+
+*This part is concluded from [(MIT)The missing semeter/editor](https://missing.csail.mit.edu/2020/editors/)*.
 
 ### Modes
 
