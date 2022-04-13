@@ -2,9 +2,9 @@ Welcome to my personal website!
 
 ## Projects
 
-- (2022) RISC-V vscode extension implemented 
+- (2022) RISC-V vscode extension implemented (To be linked in near future)
 
-## Notes on Arbitrary Topics
+## Notes on Random Topics
 
 - Vim: [Vim Tutorial](https://wu-ys.github.io/notes/vim/)
 - Git: [Git Tutorial](https://wu-ys.github.io/notes/git/)
@@ -17,14 +17,16 @@ Welcome to my personal website!
 - Java
 - Discrete Mathematics
 - Linear Algebra
+- Calculus I
 
 ### Spring 2021
 
 - Mathematics for Computer Science
 - Theory of Computation
 - Abstract Algebra
-- Causality and Statistics
+- Causal and Statistal Learning
 - General Physics I
+- Calculus II
 
 ### Summer 2021
 
@@ -35,8 +37,7 @@ Welcome to my personal website!
 
 - Algorithms
 - Database Systems
-  - Projects (in C++): basis structure of a database, indexing, 2-Phase Lock(2PL), join algorithms
-
+  - Projects (in C++): basis structure of a database, indexing, 2PL(2-Phase Lock), join algorithms
 - Numercial Analysis
   - [Midterm review](https://wu-ys.github.io/courses/numerical/midterm-review.html)
   - [Final review](https://wu-ys.github.io/courses/numerical/final-review.html)
@@ -46,15 +47,20 @@ Welcome to my personal website!
 ### Spring 2022
 
 - Architecture
-  - Projects: RISC-V Optimization, Processor, (in C++)
-
+  - Projects: RISC-V Optimization, Processor (in C++)
 - Cryptography
 - Game Theory
   - [Midterm Cheatsheet](https://wu-ys.github.io/courses/game-theory/midterm-cheatsheet.html)
 - Quantum Computer Science
 - Probability Theory
-- Real Analysis
+- Measures and Integrals
+
+## Logs
 
 ## About Me
+
+Undergraduate student at IIIS, Tsinghua University, Beijing.
+
+Interests: Math Modeling, Numerical Algorithms, High-performance Calculation
 
 Email: wu-ys20@mails.tsinghua.edu.cn
