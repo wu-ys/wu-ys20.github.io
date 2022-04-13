@@ -2,6 +2,11 @@ Welcome to my personal website!
 
 ## Diaries
 
+## Arbitrary Notes
+
+- Vim: [Vim Tutorial Card](https://wu-ys.github.io/notes/vim/)
+- Git: [Git Tutorial Card](https://wu-ys.github.io/notes/git/)
+
 ## Courses
 
 ### Autumn 2020
@@ -29,8 +34,8 @@ Welcome to my personal website!
 - Algorithms
 - Database Systems
 - Numercial Analysis
-  - [Midterm review](https://wu-ys.github.io/numerical/数值分析期中Recap.html)
-  - [Final review](https://wu-ys.github.io/numerical/数值分析期中期末Recap.html)
+  - [Midterm review](https://wu-ys.github.io/courses/numerical/midterm-review.html)
+  - [Final review](https://wu-ys.github.io/courses/numerical/final-review.html)
 - Digital Electronics
 - General Physics II
 
@@ -39,7 +44,7 @@ Welcome to my personal website!
 - Architecture
 - Cryptography
 - Game Theory
-  - [Midterm Cheatsheet](https://wu-ys.github.io/game-theory/midterm-cheatsheet.html)
+  - [Midterm Cheatsheet](https://wu-ys.github.io/courses/game-theory/midterm-cheatsheet.html)
 - Quantum Computer Science
 - Probability Theory
 - Real Analysis
