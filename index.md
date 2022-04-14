@@ -2,12 +2,13 @@ Welcome to my personal website!
 
 ## Projects
 
-- 2022.3: RISC-V vscode extension implemented: [GitHub Repo](https://github.com/wu-ys/vscode-riscv-support.git)
+- 2022.3: RISC-V vscode extension implemented: [GitHub Repo](https://github.com/wu-ys/vscode-riscv-support)
 
 ## Notes on Random Topics
 
-- Vim: [Vim Tutorial](https://wu-ys.github.io/notes/vim/)
-- Git: [Git Tutorial](https://wu-ys.github.io/notes/git/)
+- [Vim Tutorial](https://wu-ys.github.io/notes/vim/)
+- [Git Tutorial](https://wu-ys.github.io/notes/git/)
+- How to launch a Website on github.io? (to be added)
 
 ## Courses
 
@@ -56,6 +57,10 @@ Welcome to my personal website!
 - Measures and Integrals
 
 ## My Daily and Random Thoughts
+
+Math formula test: $a^2 + b^2 = c^2$
+
+$$ a^2 + b^2 = c^2$$
 
 ## About Me
 
