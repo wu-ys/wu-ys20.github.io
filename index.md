@@ -57,8 +57,6 @@ Welcome to my personal website!
 
 ## My Daily and Random Thoughts
 
-
-
 ## About Me
 
 - Undergraduate student at IIIS, Tsinghua University, Beijing.
