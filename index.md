@@ -4,11 +4,11 @@ Welcome to my personal website!
 
 - 2022.3: RISC-V VSCode extension implemented: [GitHub Repo](https://github.com/wu-ys/vscode-riscv-support)
 
-## Notes on Random Topics
+## Notes & Tutorial on Random Topics
 
-- [Vim Tutorial](https://wu-ys.github.io/notes/vim/)
-- [Git Tutorial](https://wu-ys.github.io/notes/git/)
-- How to launch a website on github.io? (to be added)
+- [Vim Notes](https://wu-ys.github.io/notes/vim/) (2022.1)
+- [Git Notes](https://wu-ys.github.io/notes/git/) (2022.1)
+- Tutorial: How to launch a website on github.io? (to be added) (2022.3)
 
 ## Courses
 
@@ -44,7 +44,7 @@ Welcome to my personal website!
   - [Final review](https://wu-ys.github.io/courses/numerical/final-review.html)
 - Digital Electronics
 - General Physics II
-- Spanish
+- Spanish I
 
 ### Spring 2022
 
@@ -61,7 +61,7 @@ Welcome to my personal website!
 
 ## About Me
 
-- Undergraduate student at IIIS, Tsinghua University, Beijing.
+- An undergraduate student at IIIS, Tsinghua University, Beijing.
 
 - Interests: Math Modeling, Numerical Algorithms, High-performance Calculation
 
