@@ -49,7 +49,8 @@ Welcome to my personal website!
 ### Spring 2022
 
 - Architecture
-  - Projects (in RISC-V Assembly and C++): RISC-V Optimization, Processor
+  - Projects (in RISC-V Assembly and C++): RISC-V Optimization, [Processor
+  - [Midterm Cheatsheet](https://wu-ys.github.io/courses/architecture/midterm-cheatsheet.html)
 - Cryptography
 - Game Theory
   - [Midterm Cheatsheet](https://wu-ys.github.io/courses/game-theory/midterm-cheatsheet.html)
@@ -58,6 +59,9 @@ Welcome to my personal website!
 - Measures and Integrals
 
 ## My Daily and Random Thoughts
+
+- 【经验】[2022.04.17 如何（在床上）抢到一个西馆224/315/319的座位](https://wu-ys.github.io/thoughts/west-library224.html)
+- 【日常】[2022.04.17 马杯射击比赛](gttps://wu-ys.github.io/daily/shooting2022.html)
 
 ## About Me
 
