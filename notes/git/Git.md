@@ -8,7 +8,7 @@
 
 Data model: DAG
 
-### Basic Git commands
+## Basic Git commands
 
 `git init`: Initializing a repository in an existing directory
 `git add ***`: Specify the files/directories that we want to track
@@ -26,11 +26,15 @@ In the `.gitignore` file, we can specify files that we don't want Git to track.
 
 ![image-20220130140716431](C:\Users\wuyushen\AppData\Roaming\Typora\typora-user-images\image-20220130140716431.png)
 
+
+
 `git add`: to stage a modified file. `git add .` for all tracked modified files.
 Before staging:
 ![image-20220130140758854](C:\Users\wuyushen\AppData\Roaming\Typora\typora-user-images\image-20220130140758854.png)
 After staging:
 ![image-20220130140429811](C:\Users\wuyushen\AppData\Roaming\Typora\typora-user-images\image-20220130140429811.png)
+
+
 
 `git diff`: show all modifications since last staging (All unstaged changes)
 
@@ -93,6 +97,8 @@ Git uses pointers to track typical commits, and the `HEAD` pointer always points
 
 `git merge <branch-name>`: merge the branch to the `HEAD` branch
 
+
+
 An Example: 1. Create a new branch "missing", and commit in it
 
 ![image-20220130213209669](C:\Users\wuyushen\AppData\Roaming\Typora\typora-user-images\image-20220130213209669.png)
@@ -106,3 +112,36 @@ An Example: 1. Create a new branch "missing", and commit in it
 
 ![image-20220130214317367](C:\Users\wuyushen\AppData\Roaming\Typora\typora-user-images\image-20220130214317367.png)
 
+
+
+## Git Remote
+
+`git remote` for all remote servers
+`git remote add <shortname> <url>`: add a new remote server and specifies a shortname
+
+`git fetch <remote>`: fetch new data from the remote (since last connection). Only downloads data to local repo and won't merge to the current branch.
+
+`git pull <remote>`: fetch new data from the remote (since last connection) and merge to current branch.
+
+`git push <remote> <branch>`: push the specified branch to the remote.
+
+`git remote show <remote>` for information on the remote.
+
+`git remote rename` 
+`git remote remove` or `git remote rm`
+
+
+
+### Remote branch
+
+Remote branches are named in the format of `<remote>/<branch>` 
+
+`git push <remote> <local-branch>:<remote-branch>`: pushes the local branch to remote branch
+
+We can use local branches (called "tracking branch") to track remote branches, and the tracked remote branch is called "upstream branch".
+
+- `git checkout -b <branch> <remote>/<remote-branch>` -> `git checkout --track <remote>/<remote-branch>`: create a local tracking branch.
+- `git branch -u <remote>/<remote-branch> <local-branch>`: let the local branch to track the remote branch.
+- `git branch -vv`: show all tracking/upstream branches.
+
+`git push <remote> --delete <remote-branch>`: delete a remote branch.
