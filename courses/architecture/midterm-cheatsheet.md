@@ -95,7 +95,7 @@ Simple format of RISC-V $\to$ simple instruction decoding
 
 Multi-level decoding:
 
-<img src="D:\wys\classfile\2021-2022-2\Architecture\Cheetsheat for Architecture Midterm.assets\image-20220418195328525.png" alt="image-20220418195328525" style="zoom: 30%;" />
+<img src="https://wu-ys.github.io/courses/architecture/midterm-cheatsheet.assets/image-20220418195328525.png" alt="image-20220418195328525" style="zoom: 30%;" />
 
 
 
@@ -103,11 +103,11 @@ Datapath & control bits
 
 Structure & critical path:
 
-<img src="D:\wys\classfile\2021-2022-2\Architecture\Cheetsheat for Architecture Midterm.assets\image-20220418195554733.png" alt="image-20220418195554733" style="zoom: 80%;" />
+<img src="https://wu-ys.github.io/courses/architecture/midterm-cheatsheet.assets/image-20220418195554733.png" alt="image-20220418195554733" style="zoom: 80%;" />
 
 Pipelining: 5 stages IF/ID/EX/MEM/WB
 
-<img src="D:\wys\classfile\2021-2022-2\Architecture\Cheetsheat for Architecture Midterm.assets\image-20220418200214694.png" alt="image-20220418200214694" style="zoom:50%;" />
+<img src="https://wu-ys.github.io/courses/architecture/midterm-cheatsheet.assets/image-20220418200214694.png" alt="image-20220418200214694" style="zoom:50%;" />
 
 ### Lec.06 Avoiding hazards and stalls
 
@@ -166,7 +166,7 @@ Overall workflow
 - Else, use current PC to index into BTB 
 - If there is an entry, then PC = target address in BTB, else PC = PC + 4
 
-![image-20220418204125010](D:\wys\classfile\2021-2022-2\Architecture\Cheetsheat for Architecture Midterm.assets\image-20220418204125010.png)
+![image-20220418204125010](D:\wys\github-website\wu-ys20\courses\architecture\midterm-cheatsheet.assets\image-20220418204125010-16503653810021.png)
 
 ### Superscalar and Out-of-Order
 
