@@ -166,7 +166,7 @@ Overall workflow
 - Else, use current PC to index into BTB 
 - If there is an entry, then PC = target address in BTB, else PC = PC + 4
 
-![image-20220418204125010](D:\wys\github-website\wu-ys20\courses\architecture\midterm-cheatsheet.assets\image-20220418204125010-16503653810021.png)
+![image-20220418204125010](https://wu-ys.github.io/courses/architecture/midterm-cheatsheet.assets/image-20220418204125010.png)
 
 ### Superscalar and Out-of-Order
 
