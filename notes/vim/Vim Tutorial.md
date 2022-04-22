@@ -1,8 +1,10 @@
-## Vim Tutorial
+# Vim Tutorial
 
 [TOC]
 
 ------
+
+## Vim Basics
 
 *This part is concluded from [(MIT)The missing semeter/editor](https://missing.csail.mit.edu/2020/editors/)*.
 
@@ -74,6 +76,8 @@ In `c` and `d` command, we can select movement in a range bracketed by something
 `ci[`: change contents **inside** the bracket []
 `da[`: delete contents around the bracket [] (included)
 
+General formula: action(`c`,`d`,`v`) + range(`count`,`i`,`a`) + motion(`0`,`$`,`j`,`k`,`w`,`(`,`[`)
+
 `%`: Jump to the matching bracket
 `/something`: search for something
 `.`: repeat the same editing command as previous
@@ -97,3 +101,16 @@ Examples:
 
 - `:.,$s/foo/bar/g`: Change each 'foo' to 'bar' for all lines from the current line (.) to the last line ($) inclusive. 
 - `:.,+2s/foo/bar/g`: Change each 'foo' to 'bar' for the current line (.) and the two next lines (+2).
+
+
+
+## Advanced tools & Plugins
+
+### Sneak
+
+To quickly search the pattern of two specific letters
+
+- `s/S+<char><char>`: jump to next/last pattern `<char><char>`
+- `s/S+{char}<Enter>`: jump to next/last `<char>`
+- `;`/`,`: jump to next/last result (according to last search)
+- `[count]s/S{char}{char}`: jump to next pattern `<char><char>` with `count`.
