@@ -106,6 +106,12 @@ Examples:
 
 ## Advanced tools & Plugins
 
+A website for various plugins: https://vimawesome.com/plugin
+
+### NerdTree
+
+Type `:NERDTree` to have a file tree
+
 ### Sneak
 
 To quickly search the pattern of two specific letters
@@ -114,3 +120,55 @@ To quickly search the pattern of two specific letters
 - `s/S+{char}<Enter>`: jump to next/last `<char>`
 - `;`/`,`: jump to next/last result (according to last search)
 - `[count]s/S{char}{char}`: jump to next pattern `<char><char>` with `count`.
+
+
+
+### Surround.vim
+
+Installiing: 
+
+```
+git clone https://tpope.io/vim/surround.git
+vim -u NONE -c "helptags surround/doc" -c q
+```
+
+Main features: add/modifiy/delete "surroundings"
+
+- `cs"'`: change `"` to `'`.
+- `cs[{`: change `[]` to `{}`.
+
+- `ds[`: delete `[]`.
+- `ys+<motion>+""`: add `""` in the motion
+
+
+
+### Repeat.vim
+
+Installing: 
+
+```
+git clone https://github.com/tpope/vim-repeat.git
+```
+
+Support `.` for repeating last command in vim plugins.
+
+
+
+###  vim-fugitive
+
+Git support in Vim. Installing:
+
+```
+git clone https://github.com/tpope/vim-fugitive
+vim -u NONE -c "helptags fugitive/doc" -c q
+```
+
+Type `:Git` and execute any Git commands in Vim.
+
+
+
+### vim-airline
+
+```
+git clone https://github.com/vim-airline/vim-airline
+```
