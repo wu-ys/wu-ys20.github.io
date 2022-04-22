@@ -6,9 +6,9 @@ Welcome to my personal website!
 
 ## Notes & Tutorial on Random Topics
 
-- [Vim Notes](https://wu-ys.github.io/notes/vim/) (2022.1)
-- [Git Notes](https://wu-ys.github.io/notes/git/) (2022.1)
-- Tutorial: How to launch a website on github.io? (to be added) (2022.3)
+- 2022.1: [Vim Notes](https://wu-ys.github.io/notes/vim/) 
+- 2022.1: [Git Notes](https://wu-ys.github.io/notes/git/) 
+- 2022.3 Tutorial: How to launch a website on github.io? 
 
 ## Courses
 
@@ -49,7 +49,7 @@ Welcome to my personal website!
 ### Spring 2022
 
 - Architecture
-  - Projects (in RISC-V Assembly and C++): RISC-V Optimization, [Processor
+  - Projects (in RISC-V Assembly and C++): RISC-V Optimization, Processor
   - [Midterm Cheatsheet](https://wu-ys.github.io/courses/architecture/midterm-cheatsheet.html)
 - Cryptography
 - Game Theory
@@ -60,8 +60,7 @@ Welcome to my personal website!
 
 ## My Daily and Random Thoughts
 
-- 【经验】[2022.04.17 如何（在床上）抢到一个西馆224/315/319的座位](https://wu-ys.github.io/thoughts/west-library224.html)
-- 【日常】[2022.04.17 马杯射击比赛](gttps://wu-ys.github.io/daily/shooting2022.html)
+- 【经验】[2022.04.17 如何（在床上）抢到一个西馆224/315/319的座位](https://wu-ys.github.io/thoughts/west-library224.html) 
 
 ## About Me
 
