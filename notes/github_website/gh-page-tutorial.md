@@ -14,7 +14,7 @@
 
 ![image-20220426214533202](https://wu-ys.github.io/notes/github_website/gh-page-tutorial.assets/image-20220426214533202.png)
 
-1.2 创建成功后，点击Settings-pages，将Source一览设置为gh-pages分支，root文件夹。点击下方的Change theme按钮，可以设置默认生成器的网页样式（生成器的作用会在下面进行介绍）
+1.2 创建成功后，点击Settings-pages，将Source一览设置为gh-pages分支，root文件夹。点击下方的Change theme按钮，可以设置默认在线生成器的网页样式（在线生成器的作用会在下面进行介绍）
 
 ![image-20220426214920844](https://wu-ys.github.io/notes/github_website/gh-page-tutorial.assets/image-20220426214920844.png)
 
@@ -70,4 +70,4 @@ Your branch is up to date with 'origin/gh-pages'.
 
 如果希望自己在Typora定制网页样式的话，可以点击“文件-偏好设置-外观”，在下面点击“打开主题文件夹”，新建一个.css文件并在其中根据自己的喜好修改。不会的话可以上网搜一搜相关教程。
 
-![image-20220426223348605]((https://wu-ys.github.io/notes/github_website/gh-page-tutorial.assets/image-20220426223348605.png)
+![image-20220426223348605](https://wu-ys.github.io/notes/github_website/gh-page-tutorial.assets/image-20220426223348605.png)

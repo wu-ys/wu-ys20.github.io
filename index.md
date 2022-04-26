@@ -8,7 +8,7 @@ Welcome to my personal website!
 
 - 2022.1: [Vim Notes](https://wu-ys.github.io/notes/vim/) 
 - 2022.1: [Git Notes](https://wu-ys.github.io/notes/git/) 
-- 2022.3 [Tutorial: How to launch a website on github.io?](https://wu-ys.github.io/notes/github_website/gh-page-tutorial.html) 
+- 2022.3 [教程：如何在Github上建立自己的个人网站/主页](https://wu-ys.github.io/notes/github_website/gh-page-tutorial.html) 
 
 ## Courses
 
