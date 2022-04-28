@@ -76,7 +76,7 @@ In `c` and `d` command, we can select movement in a range bracketed by something
 `ci[`: change contents **inside** the bracket []
 `da[`: delete contents around the bracket [] (included)
 
-General formula: action(`c`,`d`,`v`) + range(`count`,`i`,`a`) + motion(`0`,`$`,`j`,`k`,`w`,`(`,`[`)
+**General formula:** action(`c`,`d`,`v`) + range(`count`,`i`,`a`) + motion(`0`,`$`,`j`,`k`,`w`,`(`,`[`)
 
 `%`: Jump to the matching bracket
 `/something`: search for something
@@ -125,14 +125,14 @@ To quickly search the pattern of two specific letters
 
 ### Surround.vim
 
-Installiing: 
+Install: 
 
 ```
 git clone https://tpope.io/vim/surround.git
 vim -u NONE -c "helptags surround/doc" -c q
 ```
 
-Main features: add/modifiy/delete "surroundings"
+Main features: add/modifiy/delete "surroundings". In other words, it adds an `s` ranging in the general formula above.
 
 - `cs"'`: change `"` to `'`.
 - `cs[{`: change `[]` to `{}`.
@@ -144,7 +144,7 @@ Main features: add/modifiy/delete "surroundings"
 
 ### Repeat.vim
 
-Installing: 
+Install: 
 
 ```
 git clone https://github.com/tpope/vim-repeat.git
@@ -156,7 +156,7 @@ Support `.` for repeating last command in vim plugins.
 
 ###  vim-fugitive
 
-Git support in Vim. Installing:
+Git support in Vim. Install:
 
 ```
 git clone https://github.com/tpope/vim-fugitive
