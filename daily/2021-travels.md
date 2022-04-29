@@ -17,7 +17,7 @@
 5. 【2021.5.3-5.4】五一特辑（下）：贺兰山&四子王旗草原
 6. 【2021.9.20】初秋微凉——再访承德
 
-<img src="https://wu-ys.github.io/daily/2021-travelsassets/image-20220428221226898.png" alt="image-20220428221226898" style="zoom:50%;" />
+<img src="https://wu-ys.github.io/daily/2021-travels.assets/image-20220428221226898.png" alt="image-20220428221226898" style="zoom:50%;" />
 
 ## 二、京内部分，和一些零碎的东西
 
