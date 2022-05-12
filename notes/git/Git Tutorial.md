@@ -112,3 +112,6 @@ We can use local branches (called "tracking branch") to track remote branches, a
 - `git branch -vv`: show all tracking/upstream branches.
 
 `git push <remote> --delete <remote-branch>`: delete a remote branch.
+$$
+\lim_{n\to{+\infty}}\sum_{j=1}^n \log\left(\cos\frac{t}{\sqrt{n}} - \frac{1}{j^2} \cos\frac{t}{\sqrt{n}} + \frac{1}{j^2}\cos\frac{tj}{\sqrt{n}}\right)
+$$
