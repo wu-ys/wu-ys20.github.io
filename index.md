@@ -64,6 +64,8 @@ Welcome to my personal website!
 ### Summer 2022
 
 - AI+X Computing Acceleration: From Algorithms Development, Analysis, to Deployment
+  - [NOC project report]() (in Chinese)
+
 
 ### Autumn 2022
 
