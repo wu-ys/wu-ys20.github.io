@@ -64,7 +64,7 @@ Welcome to my personal website!
 ### Summer 2022
 
 - AI+X Computing Acceleration: From Algorithms Development, Analysis, to Deployment
-  - [NOC project report]() (in Chinese)
+  - [NOC project report](https://wu-ys.github.io/courses/AI+X/project/report) (in Chinese)
 
 
 ### Autumn 2022
