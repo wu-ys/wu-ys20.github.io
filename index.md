@@ -48,24 +48,38 @@ Welcome to my personal website!
 
 ### Spring 2022
 
-- Architecture
-  - Projects (in RISC-V Assembly and C++): RISC-V Optimization, Processor
+- Computer Architecture
+  - Projects (in RISC-V Assembly and C++): RISC-V Optimization, Processor and branch prediction, Cache design
   - [Midterm Cheatsheet](https://wu-ys.github.io/courses/architecture/midterm-cheatsheet.html)
+  - [Final Cheatsheet](https://wu-ys.github.io/courses/architecture/final.html)
 - Cryptography
 - Game Theory
   - [Midterm Cheatsheet](https://wu-ys.github.io/courses/game-theory/midterm-cheatsheet.html)
-- Quantum Computer Science
+  - [Final Cheatsheet](https://wu-ys.github.io/courses/game-theory/final-cheatsheet.html)
 - Probability Theory
 - Measures and Integrals
 
+
+
+### Summer 2022
+
+- AI+X Computing Acceleration: From Algorithms Development, Analysis, to Deployment
+
+### Autumn 2022
+
+- Computer Graphics
+- OS and Distributed Systems
+- Computational Biology
+- AI: Principles and Techniques
+
 ## My Daily and Random Thoughts
 
-- 【经验】[2022.04.17 如何（在床上）抢到一个西馆224/315/319的座位](https://wu-ys.github.io/thoughts/west-library224.html) 
+
 
 ## About Me
 
 - An undergraduate student at IIIS, Tsinghua University, Beijing.
 
-- Interests: Math Modeling, Numerical Algorithms, High-performance Calculation
+- Interests: Math Modeling, Numerical Algorithms, Accelerator
 
 - Email: wu-ys20@mails.tsinghua.edu.cn

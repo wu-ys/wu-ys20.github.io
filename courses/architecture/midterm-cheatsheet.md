@@ -187,4 +187,4 @@ Stages: Fetch
 - Issue/schedule: Determine whether instruction is ready to execute 
 - Execute: actual execution of instructions, e.g., ALU, memory access
 - Commit/retire/write-back: Update architectural states (registers or memory)
-- Each stage can me one or more cycles
+- Each stage can be one or more cycles
