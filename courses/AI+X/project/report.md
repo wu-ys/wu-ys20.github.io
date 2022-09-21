@@ -22,7 +22,7 @@
 
 这就要求我们对微片的格式做出约定：
 
-![image-20220909004615530](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909004615530.png)
+![image-20220909004615530](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909004615530.png)
 
 而在各个节点，需要我们针对不同的微片做出不同的反应：
 
@@ -58,7 +58,7 @@ else // (X,Y)_target == (X,Y)_current
 end
 ```
 
-![image-20220909002058473](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909002058473.png)
+![image-20220909002058473](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909002058473.png)
 
 ### 2.2 仲裁模块
 
@@ -72,13 +72,13 @@ end
 
 其中优先方向的判断顺序和更新顺序均为north-east-south-west-local循环，这样可以避免某个方向的请求始终得不到满足。
 
-![image-20220909002602294](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909002602294.png)
+![image-20220909002602294](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909002602294.png)
 
 ### 2.3 交叉矩阵模块
 
 这一模块根据仲裁模块给出的选择信号，将对应的输入输出方向接通。其中既包含数据的接通，也包含正向vld信号的接通以及反向rdy信号的接通。其中，`sel`是集合了来自五个仲裁器的信号，例如`sel_n[e]`就指示（输出方向）北面是否选择东面作为其输入方向。
 
-![image-20220909002856510](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909002856510.png)
+![image-20220909002856510](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909002856510.png)
 
 各个输出信号的具体计算如下：
 
@@ -108,7 +108,7 @@ assign in_rdy_n = (~in_vld_n) | ( (out_rdy_n | ~(sel_n[n])) & (out_rdy_e | ~(sel
 
 为此，我们对于输入缓存的初步设计是使用一个FIFO，具体接线如下（时钟信号和复位信号未画出）：
 
-![image-20220909133300847](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909133300847.png)
+![image-20220909133300847](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909133300847.png)
 
 然而，我们在实际调试中发现，调用的FIFO IP核因为未知原因会出现刚开始时无法写入数据的问题，在本报告第5.1部分我们将详细介绍这一问题。
 
@@ -118,7 +118,7 @@ assign in_rdy_n = (~in_vld_n) | ( (out_rdy_n | ~(sel_n[n])) & (out_rdy_e | ~(sel
 
 将上述模块拼接起来，我们就得到了一个节点的基本架构：（这里对外的输入输出端口都应该分五个方向，没能一一标出）
 
-![image-20220909143456363](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909143456363.png)
+![image-20220909143456363](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909143456363.png)
 
 此外，再加入初始化端口用以输入并存储当前节点的坐标，我们就完成了整个节点的搭建。经过验证这一架构可以在100MHz的时钟频率下运行。
 
@@ -135,15 +135,15 @@ assign in_rdy_n = (~in_vld_n) | ( (out_rdy_n | ~(sel_n[n])) & (out_rdy_e | ~(sel
 - 并行输入位数：固定为768位（即32个int24类型数据）
 - 时钟频率比值：可支持26倍以上的整数倍，需要手动配置；在测试中我们采取的是50倍的频率比，即网络内高频部分100MHz，对外低频部分为2MHz。
 
-![image-20220909143155167](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909143155167.png)
+![image-20220909143155167](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909143155167.png)
 
-![image-20220909143301736](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909143301736.png)
+![image-20220909143301736](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909143301736.png)
 
 
 
 最终单个节点的架构如下，上下左右方向均连接至其他节点，左上为本地输入，右下为本地输出。
 
-![image-20220909150051147](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909150051147.png)
+![image-20220909150051147](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909150051147.png)
 
 
 
@@ -153,21 +153,21 @@ assign in_rdy_n = (~in_vld_n) | ( (out_rdy_n | ~(sel_n[n])) & (out_rdy_e | ~(sel
 
 首先，我们对于单个节点对于数据的处理、收发能力进行了测试。在第一个测试中，我们让五个方向同时传入数据，但目标是不同的方向，以检查节点是否能正确确定路由、并满足多个方向的并行发送。处理结果完美符合预期，每个方向上的数据均在两个周期的延迟（由输入缓存造成）后正确到达对应输出端。
 
-![image-20220909152306885](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909152306885.png)
+![image-20220909152306885](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909152306885.png)
 
 第二个测试中，我们让四个方向的输入均指向同一个方向输出，以测试输入缓存是否正常工作，以及仲裁模块是否能正确处理多个方向排队的情况。经验证，结果也符合预期。
 
-![image-20220909153124803](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909153124803.png)
+![image-20220909153124803](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909153124803.png)
 
 ### 3.2 串-并行转换测试
 
 接下来，我们对串并行转换模块也做了调试。由于这两个模块涉及到两个不同频率的时钟，这样的异步时序模块需要更加仔细的调试。首先是并行-串行转换器serializer：
 
-![image-20220909160208300](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909160208300.png)
+![image-20220909160208300](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909160208300.png)
 
 接下来，将之前产生的串行数据再输入至串行-并行转换器deserializer中，可见这两个模块顺利配合，成功在终点将发送的数据恢复出来：
 
-![image-20220909160659625](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909160659625.png)
+![image-20220909160659625](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909160659625.png)
 
 ### 3.3 网络整体测试
 
@@ -177,13 +177,13 @@ assign in_rdy_n = (~in_vld_n) | ( (out_rdy_n | ~(sel_n[n])) & (out_rdy_e | ~(sel
 
 第一张图可以看出，各个节点都从0.25微秒的时间开始向外发送数据，已完成的计数初始时为零，并随着时间推进而逐渐增长。
 
-![image-20220909162718921](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909162718921.png)
+![image-20220909162718921](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909162718921.png)
 
 第二张图则是完成时的情况。第四到七行指示的是每个节点已经成功发送出去的数据个数。可以看到虽然并不同步增长，但各个节点的发送进度是大致一致的，这表明网络中不会出现某个节点的数据长时间得不到传输的情形。
 
 在25.25微秒的时刻，可以看到计数器cnt增长到了124，这就说明所有数据均已经正确完成了传输。如果以对外的低频周期（即2MHz，0.5微秒）为单位的话，传输任务共消耗了50个周期，可见在高频网络的帮助下我们可以高效地完成传输任务。
 
-![image-20220909163356209](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909163356209.png)
+![image-20220909163356209](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909163356209.png)
 
 
 
@@ -193,7 +193,7 @@ assign in_rdy_n = (~in_vld_n) | ( (out_rdy_n | ~(sel_n[n])) & (out_rdy_e | ~(sel
 
 *注：BRAM的占用主要是因为测试数据的存储，网络模块实际利用的BRAM应该小于1%。*
 
-![image-20220909164908366](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909164908366.png)
+![image-20220909164908366](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909164908366.png)
 
 ### 4.2 性能指标
 
@@ -239,15 +239,15 @@ assign in_rdy_n = (~in_vld_n) | ( (out_rdy_n | ~(sel_n[n])) & (out_rdy_e | ~(sel
 
 以下是behavior simulation的波形，可以看到45ns时`out_rdy`信号置于1，此后一个周期FIFO开始输出此前收到的数据，这时一切正常。
 
-![image-20220909135540861](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909135540861.png)
+![image-20220909135540861](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909135540861.png)
 
 但在post synthesis simulation的波形中，可以看到虽然读入了0001和0002两个数据，但是FIFO的`empty`信号始终置于高位，此后的输出中也表明根本没有读到0001和0002这两个数据。
 
-![image-20220909140210777](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909140210777.png)
+![image-20220909140210777](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909140210777.png)
 
 这是此后的波形，可见115ns后FIFO输出的数据始终为0000000a，也不再输出其他接收到的数据。
 
-![image-20220909140652684](D:\wys\classfile\2021-2022-3\AI+X\codes\project\report\AI+X 大作业报告.assets\image-20220909140652684.png)
+![image-20220909140652684](https://wu-ys.github.io/courses/AI+X/project/AI+X.assets/image-20220909140652684.png)
 
 这一故障一直无法排除，最终只好放弃使用FIFO作为输入缓存。
 
