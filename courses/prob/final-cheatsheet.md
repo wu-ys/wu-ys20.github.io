@@ -2,7 +2,7 @@
 
 ### Chapter 3: Independence and Convergence by distribution
 
-![image-20220613202148138](D:\wys\classfile\2021-2022-2\ProbabilityTheory\final.assets\image-20220613202148138.png)
+![image-20220613202148138](https://wu-ys.github.io/courses/prob/final.assets/image-20220613202148138.png)
 
 ### Chapter 4: LLN
 
@@ -13,7 +13,7 @@
 - (KhinChin WLLN) $X_1 \in L^1(\Omega)$, 则 $\frac{S_n}{n} \to m$ 依概率收敛. (proof. 截断法)
 - (Komogorov SLLN) $X_1 \in L^1(\Omega)$, 则 $\frac{S_n}{n} \to m$ 几乎处处收敛.
 
-<img src="D:\wys\classfile\2021-2022-2\ProbabilityTheory\final.assets\image-20220613201927559.png" alt="image-20220613201927559"  />
+<img src="https://wu-ys.github.io/courses/prob/final.assets/image-20220613201927559.png" alt="image-20220613201927559"  />
 
 
 
@@ -23,9 +23,9 @@
 
 *Prop.* $\phi_\mu(0) = 1, |\phi_\mu(t)|\le 1, \phi_\mu(t) = \overline{\phi_\mu(-t)}, \phi_{aX+b}(t)= e^{itb}\phi_X(at)$; $\phi_\mu: \mathbb{R} \to \mathbb{C}$ is uniformly continuous; The convex combination of c.f.s is also a c.f.; If $X\perp Y$, then $\phi_{X+Y} = \phi_X\phi_Y$.
 
-![image-20220613202956241](D:\wys\classfile\2021-2022-2\ProbabilityTheory\final.assets\image-20220613202956241.png)
+![image-20220613202956241](https://wu-ys.github.io/courses/prob/final.assets/image-20220613202956241.png)
 
-![image-20220613203033344](D:\wys\classfile\2021-2022-2\ProbabilityTheory\final.assets\image-20220613203033344.png)
+![image-20220613203033344](https://wu-ys.github.io/courses/prob/final.assets/image-20220613203033344.png)
 
 由此可反向由特征函数**唯一**确定一个概率分布.
 
@@ -127,9 +127,9 @@ Define $X_\tau = \sum_{l=0}^\infty X_l(w)\mathbf{1}_{\tau = l} + X_\infty\mathbf
 - 存在 $X_\infty \in L^1$, 使得$X_n$几乎处处收敛到$X_\infty$; (由一致可积性可知也有$X_n$依$L^1$范数收敛到$X_\infty$).
 - $\mathfrak{X}$ 是一个Levy鞅. (此时恰有$X_n = \mathbb{E}[X_\infty|\mathcal{F}_n]$, 从而$X_\infty$是终元)
 
-![image-20220613200538456](D:\wys\classfile\2021-2022-2\ProbabilityTheory\final.assets\image-20220613200538456.png)
+![image-20220613200538456](https://wu-ys.github.io/courses/prob/final.assets/image-20220613200538456.png)
 
-![image-20220613200554263](D:\wys\classfile\2021-2022-2\ProbabilityTheory\final.assets\image-20220613200554263.png)
+![image-20220613200554263](https://wu-ys.github.io/courses/prob/final.assets/image-20220613200554263.png)
 
 *Thm.* 若$\mathfrak{X}$是一个F鞅, 且$\mathfrak{X}\subset L^p$, 则以下命题等价:
 
