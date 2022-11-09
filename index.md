@@ -86,7 +86,7 @@ Welcome to my personal website!
 
 - Computer Graphics
 - Operating Systems and Distributed Systems
-  - [Midterm Cheatsheet](https://www.bilibili.com/video/BV1GJ411x7h7/?spm_id_from=333.337.search-card.all.click&vd_source=25d52bba9381ee65308aed4dee6e7ba2)
+  - [Midterm Cheatsheet](https://wu-ys.github.io/courses/os-ds/midterm-sheatsheet.html)
 - ODE
 - Spanish II
 
