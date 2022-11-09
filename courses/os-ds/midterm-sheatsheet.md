@@ -65,7 +65,7 @@ hardware supports at least two modes: kernel and user
 - User to Kernel transition sets system mode AND saves user PC;
 - Kernel to User transition clears system mode AND restores appropriate user PC;
 
-![image-20220922110154562](D:\wys\github-website\wu-ys20\courses\os-ds\midterm-sheatsheet.assets\image-20220922110154562.png)
+![image-20220922110154562](https://wu-ys.github.io/courses/os-ds/midterm-sheatsheet.assets/image-20220922110154562.png)
 
 Types of mode transfer: syscall, interrupt, trap or exception
 
@@ -138,11 +138,11 @@ Condition Variable: a queue of threads waiting for something *inside* a critical
 
 **Hoare-style Monitors**: Signaler gives up lock and CPU to waiter; waiter runs immediately; waiter gives up lock, processor back to signaler when it exits critical section or if it waits again.
 
-![image-20221109160855868](D:\wys\github-website\wu-ys20\courses\os-ds\midterm-sheatsheet.assets\image-20221109160855868.png)
+![image-20221109160855868](https://wu-ys.github.io/courses/os-ds/midterm-sheatsheet.assets/image-20221109160855868.png)
 
 **Mesa-style Monitors**: Signaler keeps lock and processor; waiter placed on a local ready queue for the monitor; practically, need to check condition again after wait.
 
-![image-20221109160847276](D:\wys\github-website\wu-ys20\courses\os-ds\midterm-sheatsheet.assets\image-20221109160847276.png)
+![image-20221109160847276](https://wu-ys.github.io/courses/os-ds/midterm-sheatsheet.assets/image-20221109160847276.png)
 
 #### Application: Readers & Writers Problem
 
@@ -201,7 +201,7 @@ Problems: Starvation & Deadlock
 
 - Detection Algorithm
 
-![image-20221105150951637](D:\wys\github-website\wu-ys20\courses\os-ds\midterm-sheatsheet.assets\image-20221105150951637.png)
+![image-20221105150951637](https://wu-ys.github.io/courses/os-ds/midterm-sheatsheet.assets/image-20221105150951637.png)
 
 ### Prevention
 
@@ -215,7 +215,7 @@ Problems: Starvation & Deadlock
   - Allow the particular thread to proceed if `Avail + Alloc >= Max`.
 
 
-![image-20221105151158075](D:\wys\github-website\wu-ys20\courses\os-ds\midterm-sheatsheet.assets\image-20221105151158075.png)
+![image-20221105151158075](https://wu-ys.github.io/courses/os-ds/midterm-sheatsheet.assets/image-20221105151158075.png)
 
 ## 4.2 I/O
 
@@ -373,13 +373,13 @@ Internet Protocol (IP): Only **five** layers; The functionalities of the missing
 
 #### 7 Application Layer
 
-![image-20221107203332061](D:\wys\github-website\wu-ys20\courses\os-ds\midterm-sheatsheet.assets\image-20221107203332061.png)
+![image-20221107203332061](https://wu-ys.github.io/courses/os-ds/midterm-sheatsheet.assets/image-20221107203332061.png)
 
-![image-20221107203423599](D:\wys\github-website\wu-ys20\courses\os-ds\midterm-sheatsheet.assets\image-20221107203423599.png)
+![image-20221107203423599](https://wu-ys.github.io/courses/os-ds/midterm-sheatsheet.assets/image-20221107203423599.png)
 
 #### 0 Hourglass Model
 
-![image-20221107211405107](D:\wys\github-website\wu-ys20\courses\os-ds\midterm-sheatsheet.assets\image-20221107211405107.png)
+![image-20221107211405107](https://wu-ys.github.io/courses/os-ds/midterm-sheatsheet.assets/image-20221107211405107.png)
 
 Single Internet-layer module (**IP**)**:**
 
@@ -411,7 +411,7 @@ Sustained Throughput: determined by bottlenect link
 
 - Setup connection followed by data transfer
 
-![img](D:\wys\github-website\wu-ys20\courses\os-ds\midterm-sheatsheet.assets\watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5Lya6aOe55qESVTonJfniZs=,size_14,color_FFFFFF,t_70,g_se,x_16.png)
+![img](https://wu-ys.github.io/courses/os-ds/midterm-sheatsheet.assets/tcp.png)
 
 #### Solutions
 
