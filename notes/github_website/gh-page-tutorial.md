@@ -10,7 +10,7 @@
 
 ## 1 建立一个Github库
 
-1.1 为了建立自己的主页网站，需要先在Github上建立**指定名称**的库，这里的指定名称为：`<user-name>.github.io`，其中`<user-name>`替换为你自己的Github用户名（在左侧的Owner一览可见），权限应该为public
+1.1 为了建立自己的主页网站，需要先在Github上建立**指定名称**的库，这里的指定名称为：`<user-name>.github.io`，其中`<user-name>`替换为你自己的Github用户名（在左侧的Owner一栏可见），权限应该为public
 
 ![image-20220426214533202](https://wu-ys.github.io/notes/github_website/gh-page-tutorial.assets/image-20220426214533202.png)
 
@@ -58,7 +58,7 @@ Your branch is up to date with 'origin/gh-pages'.
 
  
 
-4. pdf文件（未经验证）：链接方式同上。
+4. pdf文件：链接方式同上，用户点击链接后可以直接打开pdf文件 （2022.11更新）
 
 
 
@@ -68,6 +68,6 @@ Your branch is up to date with 'origin/gh-pages'.
 
 对于其他的网页（特别是内容比较多的页面），编辑一个.md文件，在Typora中打开并调整到合适的样式，导出为.html，作为一个网页文件上传到Github库。这种方法可以支持目录、数学公式等，所有Typora支持的附加功能。（而之前提到的在线生成器是不支持的）
 
-如果希望自己在Typora定制网页样式的话，可以点击“文件-偏好设置-外观”，在下面点击“打开主题文件夹”，新建一个.css文件并在其中根据自己的喜好修改。不会的话可以上网搜一搜相关教程。
+如果希望自己在Typora定制网页样式的话，可以点击“文件-偏好设置-外观”，在下面点击“打开主题文件夹”，新建一个.css文件并在其中根据自己的喜好修改。不会的话可以上网搜一搜相关教程。（2022.11更新）Typora现在有[官方中文站](https://typoraio.cn)了，可以提供多种精美主题选择：https://theme.typoraio.cn
 
 ![image-20220426223348605](https://wu-ys.github.io/notes/github_website/gh-page-tutorial.assets/image-20220426223348605.png)
