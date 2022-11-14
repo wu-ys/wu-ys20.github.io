@@ -103,3 +103,5 @@ Welcome to my personal website!
 - Skills: C++/Java/Verilog/Matlab Programming.
 
 - Email: wu-ys20@mails.tsinghua.edu.cn
+
+- Something fun: [link](https://wu-ys.github.io/thoughts/love/love.html) 
