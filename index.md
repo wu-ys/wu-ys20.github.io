@@ -62,6 +62,7 @@ Welcome to my personal website!
   - Projects (in RISC-V Assembly and C++): RISC-V Optimization, Processor and branch prediction, Cache design
   - [Midterm Cheatsheet](https://wu-ys.github.io/courses/architecture/midterm-cheatsheet.html)
   - [Final Cheatsheet](https://wu-ys.github.io/courses/architecture/final.html)
+
 - Cryptography
   - Course Project: A survey on Committed Oblivious Tranferring [(Report)](https://wu-ys.github.io/courses/crypto/report.pdf)
 
@@ -69,11 +70,11 @@ Welcome to my personal website!
   - [Midterm Cheatsheet](https://wu-ys.github.io/courses/game-theory/midterm-cheatsheet.html)
   - [Final Cheatsheet](https://wu-ys.github.io/courses/game-theory/final-cheatsheet.html)
   - Course Project: A survey on a Game Theory Approach to Evaluating Transport Network Connectivity and Reliability [(Report)](https://wu-ys.github.io/courses/game-theory/term-paper.pdf)
+
 - Probability Theory
   - [Final Cheatsheet](https://wu-ys.github.io/courses/prob/final-cheatsheet.html)
 
 - Measures and Integrals
-
 
 
 ### Summer 2022
@@ -85,8 +86,12 @@ Welcome to my personal website!
 ### Autumn 2022
 
 - Computer Graphics
+  - Projects: *Mesh Manipulation*, *Transformation* (C++), *Ray tracing* (GLSL), *Material Point Method* (Taichi/Python), and final project *Path tracing* (C++ and GLSL)
+  - [Final project report](https://wu-ys.github.io/courses/graphics/report) (in Chinese)
+
 - Operating Systems and Distributed Systems
-  - [Midterm Cheatsheet](https://wu-ys.github.io/courses/os-ds/midterm-sheatsheet.html)
+  - [Notes](https://wu-ys.github.io/courses/os-ds/notes.html)
+  
 - ODE
 - Spanish II
 
