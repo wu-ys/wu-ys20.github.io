@@ -13,7 +13,7 @@ Welcome to my personal website!
 - [2022.8] (Summer Practice Course) Complete Implementation of NoC and Convolution Acceleration on FPGA: [Report](https://wu-ys.github.io/courses/AI+X/project/report).
 
 - [2022.9-2023.1] (Graphics Course) 5 projects: *Mesh Manipulation*, *Transformation* (C++), *Ray tracing* (GLSL), *Material Point Method* (Taichi/Python), and final project *Path tracing* (C++ and GLSL): [Report](https://wu-ys.github.io/courses/graphics/report.pdf)
-- [2022.10-2023.1] (Operating System and Distributed System Course) 4 projects: *Multithread-safe Queue*, *RPC Application*, *Blockchain implementation and Optimization*.
+- [2022.10-2023.1] (Operating System and Distributed System Course) 4 projects (C++ and Go): *Multithread-safe Queue*, *RPC Application*, *Blockchain implementation and Optimization*.
 
 ## Notes & Tutorial on Random Topics
 
@@ -43,15 +43,14 @@ Welcome to my personal website!
 ### Summer 2021
 
 - Data Structures in Real World
-  - Projects (in C++): B-Tree implementation, Bloom Filter.
-
+  - Projects (C++): *B-Tree implementation*, *Bloom Filter*.
 - Physics of Infomation
 
 ### Autumn 2021
 
 - Algorithms Designing
 - Database Systems
-  - Projects (in C++): Basic database structure, B-Tree Indexing, 2PL(2-Phase Lock), Join algorithms.
+  - Projects (C++): *Basic database structure*, *B-Tree Indexing*, *2PL(2-Phase Lock)*, *Join algorithms*.
 - Numercial Analysis
   - [Midterm review](https://wu-ys.github.io/courses/numerical/midterm-review.html)
   - [Final review](https://wu-ys.github.io/courses/numerical/final-review.html)
@@ -62,7 +61,7 @@ Welcome to my personal website!
 ### Spring 2022
 
 - Computer Architecture
-  - Projects (in RISC-V Assembly and C++): RISC-V Optimization, Processor and branch prediction, Cache design
+  - Projects (RISC-V Assembly and C++): RISC-V Optimization, *Processor and branch prediction*, *Cache design*
   - [Midterm Cheatsheet](https://wu-ys.github.io/courses/architecture/midterm-cheatsheet.html)
   - [Final Cheatsheet](https://wu-ys.github.io/courses/architecture/final.html)
 
@@ -93,6 +92,7 @@ Welcome to my personal website!
   - [Final project report](https://wu-ys.github.io/courses/graphics/report.pdf) (in Chinese)
 
 - Operating Systems and Distributed Systems
+  - Projects (C++ and Go): *Multithread-safe Queue*, *RPC Application*, *Blockchain implementation and Optimization*
   - [Notes](https://wu-ys.github.io/courses/os-ds/notes.html)
   
 - ODE
