@@ -78,17 +78,16 @@ Welcome to my personal website!
 
 - Measures and Integrals
 
-
 ### Summer 2022
 
 - AI+X Computing Acceleration: From Algorithms Development, Analysis, to Deployment
   - [NOC project report](https://wu-ys.github.io/courses/AI+X/project/report) (in Chinese)
 
-
 ### Autumn 2022
 
 - Computer Graphics
   - Projects: *Mesh Manipulation*, *Transformation* (C++), *Ray tracing* (GLSL), *Material Point Method* (Taichi/Python), and final project *Path tracing* (C++ and GLSL)
+  - [Final project Repo](https://github.com/wu-ys/ACG-sparkium)
   - [Final project report](https://wu-ys.github.io/courses/graphics/report.pdf) (in Chinese)
 
 - Operating Systems and Distributed Systems
@@ -97,7 +96,6 @@ Welcome to my personal website!
   
 - ODE
 - Spanish II
-
 
 
 ## About Me
