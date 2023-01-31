@@ -12,7 +12,7 @@ Welcome to my personal website!
 - [2022.6] (Game Thoery Course) A survey on a Game Theory Approach to Evaluating Transport Network Connectivity and Reliability: [Report](https://wu-ys.github.io/courses/game-theory/term-paper.pdf)
 - [2022.8] (Summer Practice Course) Complete Implementation of NoC and Convolution Acceleration on FPGA: [Report](https://wu-ys.github.io/courses/AI+X/project/report).
 
-- [2022.9-2023.1] (Graphics Course) 5 projects: *Mesh Manipulation*, *Transformation* (C++), *Ray tracing* (GLSL), *Material Point Method* (Taichi/Python), and final project *Path tracing* (C++ and GLSL): [Report](https://wu-ys.github.io/courses/graphics/report)
+- [2022.9-2023.1] (Graphics Course) 5 projects: *Mesh Manipulation*, *Transformation* (C++), *Ray tracing* (GLSL), *Material Point Method* (Taichi/Python), and final project *Path tracing* (C++ and GLSL): [Report](https://wu-ys.github.io/courses/graphics/report.pdf)
 - [2022.10-2023.1] (Operating System and Distributed System Course) 4 projects: *Multithread-safe Queue*, *RPC Application*, *Blockchain implementation and Optimization*.
 
 ## Notes & Tutorial on Random Topics
@@ -90,7 +90,7 @@ Welcome to my personal website!
 
 - Computer Graphics
   - Projects: *Mesh Manipulation*, *Transformation* (C++), *Ray tracing* (GLSL), *Material Point Method* (Taichi/Python), and final project *Path tracing* (C++ and GLSL)
-  - [Final project report](https://wu-ys.github.io/courses/graphics/report) (in Chinese)
+  - [Final project report](https://wu-ys.github.io/courses/graphics/report.pdf) (in Chinese)
 
 - Operating Systems and Distributed Systems
   - [Notes](https://wu-ys.github.io/courses/os-ds/notes.html)
