@@ -2,15 +2,18 @@ Welcome to my personal website!
 
 ## Research & Coding Project Experiences
 
-- [2021.7] (Summer Practice Course) 2 projects (in C++): B-Tree implementation, Bloom Filter.
-- [2021.9-2022.1] (DB Course) 4 projects (in C++): Basic database structure, B-Tree Indexing, 2PL(2-Phase Lock), Join algorithms.
-- [2022.3-2022.5] (Architecture Course) 3 projects (in RISC-V Assembly and C++): RISC-V Optimization, Processor and branch prediction, Cache design and performance.
+- [2021.7] (Summer Practice Course) 2 projects (C++): *B-Tree implementation*, *Bloom Filter*.
+- [2021.9-2022.1] (DB Course) 4 projects (C++): *Basic database structure*, *B-Tree Indexing*, *2PL(2-Phase Lock)*, *Join algorithms*.
+- [2022.3-2022.5] (Architecture Course) 3 projects (RISC-V Assembly and C++): *RISC-V Optimization*, *Processor and branch prediction*, *Cache design and performance*.
 
 - [2022.3] VSCode extension for RISC-V implemented: [GitHub Repo](https://github.com/wu-ys/vscode-riscv-support)
 
 - [2022.5] (Cryptography Course) A survey on Committed Oblivious Tranferring: [Report](https://wu-ys.github.io/courses/crypto/report.pdf)
 - [2022.6] (Game Thoery Course) A survey on a Game Theory Approach to Evaluating Transport Network Connectivity and Reliability: [Report](https://wu-ys.github.io/courses/game-theory/term-paper.pdf)
 - [2022.8] (Summer Practice Course) Complete Implementation of NoC and Convolution Acceleration on FPGA: [Report](https://wu-ys.github.io/courses/AI+X/project/report).
+
+- [2022.9-2023.1] (Graphics Course) 5 projects: *Mesh Manipulation*, *Transformation* (C++), *Ray tracing* (GLSL), *Material Point Method* (Taichi/Python), and final project *Path tracing* (C++ and GLSL): [Report](https://wu-ys.github.io/courses/graphics/report)
+- [2022.10-2023.1] (Operating System and Distributed System Course) 4 projects: *Multithread-safe Queue*, *RPC Application*, *Blockchain implementation and Optimization*.
 
 ## Notes & Tutorial on Random Topics
 
