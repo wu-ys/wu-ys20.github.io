@@ -17,9 +17,9 @@ Welcome to my personal website!
 
 ## Notes & Tutorial on Random Topics
 
-- [2022.1] [Vim Notes](https://wu-ys.github.io/notes/vim/) 
-- [2022.1] [Git Notes](https://wu-ys.github.io/notes/git/) 
-- [2022.3] [教程：如何在Github上建立自己的个人网站/主页](https://wu-ys.github.io/notes/github_website/gh-page-tutorial.html) 
+- [2022.1] [Vim Notes](https://wu-ys.github.io/notes/vim/)
+- [2022.1] [Git Notes](https://wu-ys.github.io/notes/git/)
+- [2022.3] [教程：如何在Github上建立自己的个人网站/主页](https://wu-ys.github.io/notes/github_website/gh-page-tutorial.html)
 
 ## Courses
 
@@ -52,8 +52,7 @@ Welcome to my personal website!
 - Database Systems
   - Projects (C++): *Basic database structure*, *B-Tree Indexing*, *2PL(2-Phase Lock)*, *Join algorithms*.
 - Numercial Analysis
-  - [Midterm review](https://wu-ys.github.io/courses/numerical/midterm-review.html)
-  - [Final review](https://wu-ys.github.io/courses/numerical/final-review.html)
+  - [Midterm review](https://wu-ys.github.io/courses/numerical/midterm-review.html), [Final review](https://wu-ys.github.io/courses/numerical/final-review.html)
 - Digital Electronics
 - General Physics II
 - Spanish I
@@ -62,15 +61,13 @@ Welcome to my personal website!
 
 - Computer Architecture
   - Projects (RISC-V Assembly and C++): RISC-V Optimization, *Processor and branch prediction*, *Cache design*
-  - [Midterm Cheatsheet](https://wu-ys.github.io/courses/architecture/midterm-cheatsheet.html)
-  - [Final Cheatsheet](https://wu-ys.github.io/courses/architecture/final.html)
+  - [Midterm Cheatsheet](https://wu-ys.github.io/courses/architecture/midterm-cheatsheet.html), [Final Cheatsheet](https://wu-ys.github.io/courses/architecture/final.html)
 
 - Cryptography
   - Course Project: A survey on Committed Oblivious Tranferring [(Report)](https://wu-ys.github.io/courses/crypto/report.pdf)
 
 - Game Theory
-  - [Midterm Cheatsheet](https://wu-ys.github.io/courses/game-theory/midterm-cheatsheet.html)
-  - [Final Cheatsheet](https://wu-ys.github.io/courses/game-theory/final-cheatsheet.html)
+  - [Midterm Cheatsheet](https://wu-ys.github.io/courses/game-theory/midterm-cheatsheet.html), [Final Cheatsheet](https://wu-ys.github.io/courses/game-theory/final-cheatsheet.html)
   - Course Project: A survey on a Game Theory Approach to Evaluating Transport Network Connectivity and Reliability [(Report)](https://wu-ys.github.io/courses/game-theory/term-paper.pdf)
 
 - Probability Theory
@@ -87,8 +84,7 @@ Welcome to my personal website!
 
 - Computer Graphics
   - Projects: *Mesh Manipulation*, *Transformation* (C++), *Ray tracing* (GLSL), *Material Point Method* (Taichi/Python), and final project *Path tracing* (C++ and GLSL)
-  - [Final project Repo](https://github.com/wu-ys/ACG-sparkium)
-  - [Final project report](https://wu-ys.github.io/courses/graphics/report.pdf) (in Chinese)
+  - Final project [Repo](https://github.com/wu-ys/ACG-sparkium) and [report](https://wu-ys.github.io/courses/graphics/report.pdf) (in Chinese)
 
 - Operating Systems and Distributed Systems
   - Projects (C++ and Go): *Multithread-safe Queue*, *RPC Application*, *Blockchain implementation and Optimization*
@@ -97,17 +93,21 @@ Welcome to my personal website!
 - ODE
 - Spanish II
 
+### Spring 2023
+
+- Physics-based Simulation (Graduate Course)
+
+- Mathematical Programming
+
+- Complex Analysis
+
+- PDE
 
 ## About Me
 
 - An undergraduate student at IIIS, Tsinghua University, Beijing.
-
 - Major in: Computer Science; Minor in: Mathematices.
-
-- Interests: Math Modeling, Numerical Algorithms, Accelerator, Architecture
-
-- Skills: C++/Java/Verilog/Matlab Programming.
-
+- Researching field: Graphics and physics simulation, Numerical Algorithms; Crypto Accelerators
 - Email: wu-ys20@mails.tsinghua.edu.cn
 
 - Something fun: [link](https://wu-ys.github.io/thoughts/love/love.html) 
