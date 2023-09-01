@@ -95,7 +95,7 @@ Welcome to my personal website!
 
 ### Spring 2023
 
-- Physics-based Simulation (Graduate Course)
+- Physics-based Simulation (IIIS Graduate Course)
 
 - Mathematical Programming
 
@@ -106,9 +106,9 @@ Welcome to my personal website!
 ## About Me
 
 - An undergraduate student at IIIS, Tsinghua University, Beijing.
-- Major in: Computer Science; Minor in: Mathematices.
-- Researching field: Graphics and physics simulation, Numerical Algorithms; Crypto Accelerators
+- Major: Computer Science; Minor: Mathematices.
+- Researching field: Graphics and physics simulation, Numerical Algorithms and PDE Solvers; Crypto Accelerators
 - Email: [wu-ys20@mails.tsinghua.edu.cn](emailto:wu-ys20@mails.tsinghua.edu.cn)
 - Codestats (since Jan 31, 2023): [link](https://codestats.net/users/wu-ys20)
 
-- Something fun: [link](https://wu-ys.github.io/thoughts/love/love.html) 
+- Something fun: [link](https://wu-ys.github.io/thoughts/love/love.html)
